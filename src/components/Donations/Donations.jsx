@@ -19,7 +19,7 @@ const Donations = () => {
       <div className="px-5 md:px-[100px] lg:px-[150px] md:container mx-auto">
         {displayCampaigns.length === 0 || (
           <div>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
               {displayCampaigns.slice(0, dataLength).map((campaign) => (
                 <DonatedCampaign
                   key={campaign.id}

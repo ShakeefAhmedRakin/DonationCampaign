@@ -31,19 +31,24 @@ const DonatedCampaign = ({ campaign }) => {
   };
   return (
     <>
-      <div className="rounded-lg flex gap-6" style={cardBgStyle}>
+      <div
+        className="rounded-lg flex flex-col md:flex-row gap-6"
+        style={cardBgStyle}
+      >
         <img
           src={picture}
-          className="aspect-square w-[200px] object-cover rounded-l-lg"
+          className="aspect-square w-full md:w-[200px] object-cover rounded-tr-lg rounded-tl-lg md:rounded-bl-lg md:rounded-tr-none"
         />
-        <div className="flex flex-col justify-center gap-y-1">
+        <div className="flex flex-col justify-center items-center md:items-start gap-y-1 pb-4">
           <p
             className="badge font-medium text-sm rounded-lg p-3"
             style={badgeStyle}
           >
             {category}
           </p>
-          <h2 className="text-xl font-semibold">{title}</h2>
+          <h2 className="text-xl font-semibold text-center md:text-left px-1">
+            {title}
+          </h2>
           <p className="font-semibold" style={textStyle}>
             {price}
           </p>
