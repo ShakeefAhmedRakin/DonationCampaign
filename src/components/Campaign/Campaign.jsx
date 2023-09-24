@@ -28,7 +28,7 @@ const Campaign = ({ campaign }) => {
   return (
     <>
       <Link to={`/campaign/${id}`}>
-        <div className="rounded-lg" style={cardBgStyle}>
+        <div className="rounded-lg h-full" style={cardBgStyle}>
           <img src={picture} className="rounded-lg rounded-b-none" />
           <div className="p-3">
             <p
@@ -37,6 +37,7 @@ const Campaign = ({ campaign }) => {
             >
               {category}
             </p>
+
             <h4 className="font-bold text-lg" style={textStyle}>
               {title}
             </h4>
