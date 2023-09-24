@@ -1,0 +1,7 @@
+a.active {
+  color: #ff444a;
+  font-weight: 700;
+  border-bottom: 2px solid red;
+  padding-bottom: 1px;
+  transition: 0.1s ease;
+}
