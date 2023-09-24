@@ -24,7 +24,7 @@ const Campaigns = ({ searchText }) => {
   return (
     <>
       <div className="px-5 md:px-[100px] lg:px-[150px] md:container mx-auto mt-[100px] mb-[100px]">
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredCampaigns.map((campaign) => (
             <Campaign key={campaign.id} campaign={campaign}></Campaign>
           ))}
