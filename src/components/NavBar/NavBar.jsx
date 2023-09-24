@@ -18,7 +18,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-100 px-5 md:px-[100px] lg:px-[150px] md:container mx-auto py-14">
+      <div className="navbar bg-transperant px-5 md:px-[100px] lg:px-[150px] md:container mx-auto py-14">
         <div className="navbar-start">
           <img src="/src/assets/logo/Logo.png" className="w-[200px]" />
         </div>

@@ -1,5 +1,13 @@
+import Banner from "../Banner/Banner";
+import Campaigns from "../Campaigns/Campaigns";
+
 const Home = () => {
-  return <div>I am Home</div>;
+  return (
+    <>
+      <Banner></Banner>
+      <Campaigns></Campaigns>
+    </>
+  );
 };
 
 export default Home;

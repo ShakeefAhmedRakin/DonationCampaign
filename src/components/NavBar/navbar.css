@@ -3,5 +3,5 @@ a.active {
   font-weight: 700;
   border-bottom: 2px solid red;
   padding-bottom: 1px;
-  transition: 0.1s ease;
+  transition: 0.1s;
 }
