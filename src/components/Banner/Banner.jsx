@@ -1,4 +1,4 @@
-const Banner = () => {
+const Banner = ({ searchFunction }) => {
   return (
     <>
       <div className="px-5 md:px-[100px] lg:px-[150px] md:container mx-auto">
@@ -6,16 +6,18 @@ const Banner = () => {
           <h1 className="text-5xl font-bold text-center">
             I Grow By Helping People In Need
           </h1>
-          <div className="flex">
+
+          <form onSubmit={searchFunction} className="flex">
             <input
               type="text"
-              placeholder="Type here"
+              name="searchText"
+              placeholder="Search here..."
               className="input input-bordered w-full max-w-xs rounded-r-none"
             />
             <button className="btn bg-primaryOne text-white rounded-l-none normal-case">
               Search
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </>
