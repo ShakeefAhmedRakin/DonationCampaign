@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://images.pexels.com/photos/12227661/pexels-photo-12227661.jpeg",
+    "title": "Support Healthcare for Vulnerable Communities",
+    "category": "Health",
+    "badgeBackground": "#aec7ff",
+    "cardBackground": "#d9e5ff",
+    "textColor": "#0052ff",
+    "description": "Your generous donation can make a significant difference in the lives of vulnerable communities by providing access to quality healthcare services. Together, we can ensure that no one is left without the medical care they need. Join us in this vital mission and help us save lives. Your support matters.",
+    "price": "$19.99"
+  },
+  {
+    "id": 2,
+    "picture": "https://images.pexels.com/photos/12227661/pexels-photo-12227661.jpeg",
+    "title": "Emergency Medical Fund: Be a Lifesaver",
+    "category": "Health",
+    "badgeBackground": "#aec7ff",
+    "cardBackground": "#d9e5ff",
+    "textColor": "#0052ff",
+    "description": "In times of crisis, immediate medical attention can mean the difference between life and death. Your donation to our Emergency Medical Fund ensures that critical patients receive prompt and effective care. Join us in being a lifesaver. Your support can bring hope and relief to those in urgent need.",
+    "price": "$24.99"
+  },
+  {
+    "id": 3,
+    "picture": "https://images.pexels.com/photos/12227661/pexels-photo-12227661.jpeg",
+    "title": "Nourishing Lives: Nutrition for Underprivileged Children",
+    "category": "Health",
+    "badgeBackground": "#aec7ff",
+    "cardBackground": "#d9e5ff",
+    "textColor": "#0052ff",
+    "description": "Every child deserves a healthy start in life. Your donation can make this a reality by providing nutritious meals to underprivileged children. Proper nutrition is essential for their growth and development. Join us in nourishing young lives and giving them a brighter future.",
+    "price": "$14.99"
+  },
+  {
+    "id": 4,
+    "picture": "https://images.pexels.com/photos/12227661/pexels-photo-12227661.jpeg",
+    "title": "Support Medical Research for a Healthier Tomorrow",
+    "category": "Health",
+    "badgeBackground": "#aec7ff",
+    "cardBackground": "#d9e5ff",
+    "textColor": "#0052ff",
+    "description": "Invest in the future of healthcare by supporting groundbreaking medical research. Your donation fuels discoveries, innovations, and treatments for diseases that affect millions. Together, we can make strides towards a healthier tomorrow. Join us in the quest for better healthcare solutions.",
+    "price": "$29.99"
+  },
+  {
+    "id": 5,
+    "picture": "https://images.pexels.com/photos/16034402/pexels-photo-16034402/free-photo-of-company-of-cheerful-indian-schoolgirls-and-boys-sitting-on-stone-ground-near-school-in-village.jpeg",
+    "title": "Empower Students: Educational Scholarships",
+    "category": "Education",
+    "badgeBackground": "#ffc4c5",
+    "cardBackground": "#ffe3e4",
+    "textColor": "#ff444a",
+    "description": "Education is a powerful tool for transformation. Your contribution to our scholarship program empowers deserving students to access quality education and pursue their dreams. By investing in their future, you're shaping a brighter world. Join us in making education accessible to all.",
+    "price": "$39.99"
+  },
+  {
+    "id": 6,
+    "picture": "https://images.pexels.com/photos/16034402/pexels-photo-16034402/free-photo-of-company-of-cheerful-indian-schoolgirls-and-boys-sitting-on-stone-ground-near-school-in-village.jpeg",
+    "title": "Inspire Tomorrow's Innovators: STEM Education Initiative",
+    "category": "Education",
+    "badgeBackground": "#ffc4c5",
+    "cardBackground": "#ffe3e4",
+    "textColor": "#ff444a",
+    "description": "STEM education is the key to fostering innovation and problem-solving skills. Your support for our STEM Education Initiative inspires the next generation of scientists, engineers, and innovators. Together, we can shape a brighter future through education.",
+    "price": "$59.99"
+  },
+  {
+    "id": 7,
+    "picture": "https://images.pexels.com/photos/16034402/pexels-photo-16034402/free-photo-of-company-of-cheerful-indian-schoolgirls-and-boys-sitting-on-stone-ground-near-school-in-village.jpeg",
+    "title": "Equip Schools: Educational Supplies for Underserved Communities",
+    "category": "Education",
+    "badgeBackground": "#ffc4c5",
+    "cardBackground": "#ffe3e4",
+    "textColor": "#ff444a",
+    "description": "Access to educational supplies can make a significant difference in the learning experience of children in underserved communities. Your donation provides essential supplies to schools, ensuring that every child has the tools they need for success. Join us in equipping schools and transforming young lives.",
+    "price": "$29.99"
+  },
+  {
+    "id": 8,
+    "picture": "https://images.pexels.com/photos/16034402/pexels-photo-16034402/free-photo-of-company-of-cheerful-indian-schoolgirls-and-boys-sitting-on-stone-ground-near-school-in-village.jpeg",
+    "title": "Digital Learning Revolution: Support Digital Learning Tools",
+    "category": "Education",
+    "badgeBackground": "#ffc4c5",
+    "cardBackground": "#ffe3e4",
+    "textColor": "#ff444a",
+    "description": "In the digital age, access to digital learning tools is essential for quality education. Your contribution supports the adoption of these tools in classrooms, enhancing the learning experience for students. Join us in revolutionizing education with technology.",
+    "price": "$49.99"
+  },
+  {
+    "id": 9,
+    "picture": "https://images.pexels.com/photos/6994929/pexels-photo-6994929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Warmth and Dignity: Donate Warm Clothing",
+    "category": "Clothing",
+    "badgeBackground": "#d4ecc2",
+    "cardBackground": "#ebf6e2",
+    "textColor": "#79c23f",
+    "description": "Winter can be harsh for those without warm clothing. Your donation to our Warm Clothing Drive provides comfort and protection to those in need. Help us keep someone warm and provide a sense of dignity during cold seasons.",
+    "price": "$49.99"
+  },
+  {
+    "id": 10,
+    "picture": "https://images.pexels.com/photos/6994929/pexels-photo-6994929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Restore Hope: Clothing for Homeless Shelters",
+    "category": "Clothing",
+    "badgeBackground": "#d4ecc2",
+    "cardBackground": "#ebf6e2",
+    "textColor": "#79c23f",
+    "description": "Many individuals experiencing homelessness lack access to proper clothing. Your donation helps stock homeless shelters with clothing, giving individuals the opportunity to regain their dignity and confidence. Join us in restoring hope.",
+    "price": "$34.99"
+  },
+  {
+    "id": 11,
+    "picture": "https://images.pexels.com/photos/6994929/pexels-photo-6994929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Clothing for a Brighter Future: Children's Clothing Fund",
+    "category": "Clothing",
+    "badgeBackground": "#d4ecc2",
+    "cardBackground": "#ebf6e2",
+    "textColor": "#79c23f",
+    "description": "Every child deserves proper clothing for all occasions. Your donation to our Children's Clothing Fund ensures that disadvantaged children have access to suitable attire. Join us in providing clothing and a brighter future for these young ones.",
+    "price": "$42.99"
+  },
+  {
+    "id": 12,
+    "picture": "https://images.pexels.com/photos/6994929/pexels-photo-6994929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Go Green: Sustainable Fashion Campaign",
+    "category": "Clothing",
+    "badgeBackground": "#d4ecc2",
+    "cardBackground": "#ebf6e2",
+    "textColor": "#79c23f",
+    "description": "Fashion doesn't have to harm the planet. Join us in promoting sustainable fashion choices and reducing the environmental impact of clothing production. Your support for our Sustainable Fashion Campaign contributes to a greener and more responsible fashion industry.",
+    "price": "$37.99"
+  }
+]
