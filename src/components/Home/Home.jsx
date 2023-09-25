@@ -1,18 +1,10 @@
-import { useState } from "react";
-import Banner from "../Banner/Banner";
 import Campaigns from "../Campaigns/Campaigns";
+import { useOutletContext } from "react-router-dom";
 
 const Home = () => {
-  const [searchText, setSearchText] = useState("");
-  const handleSearch = (e) => {
-    e.preventDefault();
-    setSearchText(e.target.searchText.value);
-    e.target.searchText.value = "";
-  };
-
+  const searchText = useOutletContext();
   return (
     <>
-      <Banner searchFunction={handleSearch}></Banner>
       <Campaigns searchText={searchText}></Campaigns>
     </>
   );
