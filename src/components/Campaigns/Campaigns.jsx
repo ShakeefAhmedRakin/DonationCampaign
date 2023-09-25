@@ -15,7 +15,7 @@ const Campaigns = ({ searchText }) => {
 
   useEffect(() => {
     const filtered = allCampaigns.filter((campaign) =>
-      campaign.title.toLowerCase().includes(searchText.toLowerCase())
+      campaign.category.toLowerCase().includes(searchText.toLowerCase())
     );
 
     setFilteredCampaigns(filtered);
