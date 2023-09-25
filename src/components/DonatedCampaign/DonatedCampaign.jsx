@@ -41,7 +41,7 @@ const DonatedCampaign = ({ campaign }) => {
         />
         <div className="flex flex-col justify-center items-center md:items-start gap-y-1 pb-4">
           <p
-            className="badge font-medium text-sm rounded-lg p-3"
+            className="badge font-medium text-sm rounded-lg p-3 border-none"
             style={badgeStyle}
           >
             {category}
@@ -55,7 +55,7 @@ const DonatedCampaign = ({ campaign }) => {
           <div className="mt-1">
             <Link to={`/campaign/${id}`}>
               <button
-                className="btn btn-sm text-white font-semibold border-none normal-case"
+                className="btn btn-sm text-white font-semibold border-none normal-case hover:scale-[1.03] duration-300"
                 style={buttonBgStyle}
               >
                 View Details

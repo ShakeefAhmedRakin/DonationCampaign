@@ -42,7 +42,7 @@ const Statistics = () => {
   console.log(donated.length, totalCampaigns.length);
 
   const data = [
-    { name: "Total Donation", value: totalCampaigns.length },
+    { name: "Total Donation", value: totalCampaigns.length - donated.length },
     { name: "Your Donation", value: donated.length },
   ];
 
