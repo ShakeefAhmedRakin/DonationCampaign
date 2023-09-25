@@ -20,7 +20,7 @@ const NavBar = () => {
     <>
       <div className="navbar bg-transparent px-5 md:px-[100px] lg:px-[150px] md:container mx-auto py-14">
         <div className="navbar-start">
-          <img src="/src/assets/logo/Logo.png" className="w-[200px]" />
+          <img src="https://i.ibb.co/SPXsL9P/Logo.png" className="w-[200px]" />
         </div>
 
         <div className="navbar-end">
