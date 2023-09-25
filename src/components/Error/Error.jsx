@@ -11,7 +11,9 @@ const Error = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="flex flex-col gap-6 p-44">
+        <div className="flex flex-col gap-6 py-44">
+          <hr />
+          <img src="https://i.ibb.co/SPXsL9P/Logo.png" alt="" />
           <hr />
           {error.status === 404 ? (
             <div className="text-3xl font-bold text-center">Page not found</div>
