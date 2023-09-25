@@ -27,12 +27,18 @@ const Campaign = ({ campaign }) => {
 
   return (
     <>
-      <Link to={`/campaign/${id}`} className="hover:scale-[1.01] duration-200">
-        <div className="rounded-lg h-full" style={cardBgStyle}>
-          <img src={picture} className="rounded-lg rounded-b-none" />
+      <Link to={`/campaign/${id}`}>
+        <div
+          className="rounded-lg h-full border-[1px] border-transparent hover:border-black duration-300 "
+          style={cardBgStyle}
+        >
+          <img
+            src={picture}
+            className="rounded-lg rounded-b-none aspect-video object-cover"
+          />
           <div className="p-3">
             <p
-              className="badge font-medium text-sm rounded-lg p-3"
+              className="badge font-medium text-sm rounded-lg p-3 border-none"
               style={badgeStyle}
             >
               {category}
