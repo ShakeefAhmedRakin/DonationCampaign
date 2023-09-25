@@ -34,8 +34,9 @@ const Campaign = ({ campaign }) => {
         >
           <img
             src={picture}
-            className="rounded-lg rounded-b-none aspect-video object-cover"
+            className="rounded-lg rounded-b-none object-cover h-[194px] w-full"
           />
+
           <div className="p-3">
             <p
               className="badge font-medium text-sm rounded-lg p-3 border-none"

@@ -7,7 +7,7 @@ const Banner = ({ searchFunction }) => {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-5xl flex flex-col gap-6">
             <h1 className="text-5xl font-bold text-center text-black">
-              I Grow By Helping People In Need
+              I Grow by Helping People in Need
             </h1>
 
             <form onSubmit={searchFunction} className="flex justify-center">
@@ -29,7 +29,7 @@ const Banner = ({ searchFunction }) => {
 };
 
 Banner.propTypes = {
-  searchFunction: PropTypes.function,
+  searchFunction: PropTypes.func,
 };
 
 export default Banner;
