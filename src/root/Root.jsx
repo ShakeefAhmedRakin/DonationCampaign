@@ -17,8 +17,8 @@ const Root = () => {
     location.pathname === "/"
       ? {
           backgroundImage:
-            "url(https://i.ibb.co/Zfj20Zt/pexels-rdne-stock-project-6646918-min.jpg)",
-          backgroundPosition: "top",
+            "url(https://i.ibb.co/sqkqKYC/fc1f79e18cdc1a12320b9b10ec3e253d-min.jpg)",
+          backgroundPosition: "center",
           backgroundSize: "cover",
         }
       : {};
