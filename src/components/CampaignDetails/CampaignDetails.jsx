@@ -1,7 +1,8 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { saveDonation } from "../../utility/localStorage";
+import { BiArrowBack } from "react-icons/bi";
 
 const CampaignDetails = () => {
   const campaigns = useLoaderData();
@@ -12,11 +13,17 @@ const CampaignDetails = () => {
     backgroundColor: campaign.textColor,
   };
 
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
   const handleDonateButton = (id) => {
     const alreadyDonated = saveDonation(id);
 
     !alreadyDonated
-      ? toast.success("Thank you donating.", {
+      ? toast.success("Thank you for donating.", {
           position: "top-right",
           autoClose: 2000,
           hideProgressBar: false,
@@ -55,6 +62,15 @@ const CampaignDetails = () => {
               onClick={() => handleDonateButton(campaign.id)}
             >
               Donate {campaign.price}
+            </button>
+          </div>
+          <div className="absolute top-9 left-9">
+            <button
+              className="btn border-none text-white"
+              style={buttonBgStyle}
+              onClick={handleGoBack}
+            >
+              <BiArrowBack className="text-2xl"></BiArrowBack>
             </button>
           </div>
         </div>
